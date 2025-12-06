@@ -19,7 +19,7 @@ const MySkills = () => {
           </div>
           <div className="w-11/12 mx-auto grid grid-cols-1 pb-16  lg:grid-cols-4 gap-8">
             <div className="flex items-center justify-center ">
-              <div class="card">
+              <div class="card bg-white dark:bg-gray-800">
                 <div className="flex flex-col justify-center items-center gap-4">
                   <DiHtml5 size={80} color="#E34F26" />
                   <h2 className="text-center text-xl">HTML5</h2>
@@ -29,7 +29,7 @@ const MySkills = () => {
             </div>
 
             <div className="flex items-center justify-center ">
-              <div class="card">
+              <div class="card bg-white dark:bg-gray-800">
                 <div className="flex flex-col justify-center items-center gap-4">
                   <IoLogoCss3 size={80} color="#2d53e5" />
                   <h2 className="text-center text-xl">HTML5</h2>
@@ -39,7 +39,7 @@ const MySkills = () => {
             </div>
 
             <div className="flex items-center justify-center ">
-              <div class="card">
+              <div class="card bg-white dark:bg-gray-800">
                 <div className="flex flex-col justify-center items-center gap-4">
                   <FaJsSquare size={80} color="#f7e024" />
                   <h2 className="text-center text-xl">JavaScript</h2>
@@ -49,9 +49,12 @@ const MySkills = () => {
             </div>
 
             <div className="flex items-center justify-center ">
-              <div class="card">
+              <div class="card bg-white dark:bg-gray-800">
                 <div className="flex flex-col justify-center items-center gap-4">
-                  <SiNextdotjs size={80} color="#fff" />
+                  <SiNextdotjs
+                    size={80}
+                    className="text-[#000] dark:text-[#fff]"
+                  />
                   <h2 className="text-center text-xl">Next.js</h2>
                   <h2 className="text-center text-xl">46%</h2>
                 </div>
@@ -59,7 +62,7 @@ const MySkills = () => {
             </div>
 
             <div className="flex items-center justify-center ">
-              <div class="card">
+              <div class="card bg-white dark:bg-gray-800">
                 <div className="flex flex-col justify-center items-center gap-4">
                   <FaReact size={80} color="#08ddff" />
                   <h2 className="text-center text-xl">React.js</h2>
@@ -69,7 +72,7 @@ const MySkills = () => {
             </div>
 
             <div className="flex items-center justify-center ">
-              <div class="card">
+              <div class="card bg-white dark:bg-gray-800">
                 <div className="flex flex-col justify-center items-center gap-4">
                   <RiTailwindCssFill size={80} color="#3ebff8" />
                   <h2 className="text-center text-xl">Tailwind CSS</h2>
@@ -79,9 +82,12 @@ const MySkills = () => {
             </div>
 
             <div className="flex items-center justify-center ">
-              <div class="card">
+              <div class="card bg-white dark:bg-gray-800">
                 <div className="flex flex-col justify-center items-center gap-4">
-                  <SiExpress size={80} color="#fff" />
+                  <SiExpress
+                    size={80}
+                    className="text-[#000] dark:text-[#fff]"
+                  />
                   <h2 className="text-center text-xl">Express.js</h2>
                   <h2 className="text-center text-xl">42%</h2>
                 </div>
@@ -89,7 +95,7 @@ const MySkills = () => {
             </div>
 
             <div className="flex items-center justify-center ">
-              <div class="card">
+              <div class="card bg-white dark:bg-gray-800">
                 <div className="flex flex-col justify-center items-center gap-4">
                   <FaNodeJs size={80} color="#84bf08" />
                   <h2 className="text-center text-xl">Node.js</h2>

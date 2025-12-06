@@ -5,14 +5,18 @@ import { IoLogoWhatsapp } from "react-icons/io";
 const Footer = () => {
   return (
     <div>
+      <div className="w-11/12 mx-auto border-t-2 border-gray-600 "></div>
       <section className="bg-background-light dark:bg-background-dark antialiased font-sans">
-        <footer className="w-11/12 md:w-9/12 mx-auto py-12 text-center">
+        <footer className="w-11/12 mx-auto py-8 text-center">
           <footer className="footer sm:footer-horizontal items-center p-4">
             <aside className="grid-flow-col items-center">
               <a href="#">
                 <img src="/h-logo.png" alt="" className="h-11 w-11" />
               </a>
-              <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+              <p>
+                Copyright &copy; MD HAMIDUR RAHMAN ({new Date().getFullYear()})
+                - All right reserved
+              </p>
             </aside>
             <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
               <a

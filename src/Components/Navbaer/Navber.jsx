@@ -39,7 +39,7 @@ const Navber = () => {
       );
     }
 
-    // Social Icons Animation - বৃত্তাকার প্রবেশ
+    // Social Icons Animation
     const socialIcons = socialIconsRef.current;
     if (socialIcons) {
       gsap.fromTo(
@@ -74,7 +74,7 @@ const Navber = () => {
       );
     }
 
-    // Stats Animation - গণনা ইফেক্ট
+    // Stats Animation
     const stats = statsRef.current;
     if (stats) {
       gsap.fromTo(
@@ -236,9 +236,10 @@ const Navber = () => {
     </>
   );
   return (
-    <div>
-      <div className="min-h-screen flex flex-col">
+    <div className="">
+      <div className="min-h-screen  flex flex-col">
         {/* Header */}
+        {/* sticky top-0 z-50 */}
         <header className="w-11/12 mx-auto py-6">
           <div className="navbar">
             <div className="navbar-start">
@@ -394,7 +395,7 @@ const Navber = () => {
               {/* Stats */}
               <div
                 ref={statsRef}
-                className=" dark:bg-gray-900/50 rounded-lg p-6 max-w-lg mx-auto md:mx-0"
+                className="bg-gray-200 dark:bg-gray-900/50 rounded-lg p-6 max-w-lg mx-auto md:mx-0"
               >
                 <div className="flex justify-around p-10 rounded-xl">
                   <div className="text-center">
@@ -402,9 +403,7 @@ const Navber = () => {
                       value={5}
                       className="text-2xl font-bold text-primary"
                     /> */}
-                    <p className="text-2xl font-bold text-primary stat-number">
-                      5
-                    </p>
+                    <p className="text-2xl font-bold text-primary ">2+</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       Experiences
                     </p>
@@ -416,9 +415,7 @@ const Navber = () => {
                       className="text-2xl font-bold text-primary"
                     /> */}
 
-                    <p className="text-2xl font-bold text-primary stat-number">
-                      20
-                    </p>
+                    <p className="text-2xl font-bold text-primary ">15+</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       Projects Done
                     </p>
@@ -429,9 +426,7 @@ const Navber = () => {
                       value={80}
                       className="text-2xl font-bold text-primary"
                     /> */}
-                    <p className="text-2xl font-bold text-primary stat-number">
-                      80
-                    </p>
+                    <p className="text-2xl font-bold text-primary">15+</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       Happy Clients
                     </p>

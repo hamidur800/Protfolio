@@ -10,7 +10,7 @@ import {
 import { IoLogoWhatsapp } from "react-icons/io";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import logo from "../../../public/h-logo.png";
-import hero from "../../../public/hero.png";
+import hero from "../../../public/hero-new.jpeg";
 import { CiSaveDown1 } from "react-icons/ci";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -35,7 +35,7 @@ const Navber = () => {
           duration: 0.8,
           stagger: 0.2,
           ease: "power3.out",
-        }
+        },
       );
     }
 
@@ -53,7 +53,7 @@ const Navber = () => {
           stagger: 0.1,
           ease: "back.out",
           delay: 0.5,
-        }
+        },
       );
     }
 
@@ -70,7 +70,7 @@ const Navber = () => {
           stagger: 0.15,
           ease: "power2.out",
           delay: 0.8,
-        }
+        },
       );
     }
 
@@ -86,7 +86,7 @@ const Navber = () => {
           duration: 0.8,
           ease: "power2.out",
           delay: 1,
-        }
+        },
       );
 
       const statNumbers = stats.querySelectorAll(".stat-number");
@@ -102,7 +102,7 @@ const Navber = () => {
             duration: 2,
             ease: "power2.out",
             delay: 1.2,
-          }
+          },
         );
       });
     }
@@ -120,7 +120,7 @@ const Navber = () => {
           duration: 1,
           ease: "back.out",
           delay: 0.3,
-        }
+        },
       );
 
       // Continuous floating animation
@@ -185,7 +185,7 @@ const Navber = () => {
             onUpdate: function () {
               setDisplayValue(Math.ceil(this.targets()[0].val));
             },
-          }
+          },
         );
       }
     }, [value]);
@@ -436,7 +436,7 @@ const Navber = () => {
             </div>
 
             {/* Right Image Section */}
-            <div className="relative flex justify-center items-center">
+            <div className="relative flex  justify-center items-center">
               <div className="absolute w-[80%] h-[80%] bg-gray-200/50 dark:bg-gray-800/50 rounded-full blur-3xl"></div>
 
               <div className="absolute w-full h-full max-w-md max-h-md rounded-full"></div>
@@ -444,7 +444,7 @@ const Navber = () => {
               <img
                 ref={heroImageRef}
                 alt="Portrait of Hamidur"
-                className="relative w-full max-w-md z-10 shadow-lg shadow-blue-600 rounded-full"
+                className="relative h-full w-full max-w-md z-10 shadow-lg shadow-blue-600 rounded-full"
                 src={hero}
               />
             </div>

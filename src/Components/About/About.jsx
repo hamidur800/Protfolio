@@ -40,7 +40,7 @@ const About = () => {
           <h2 className="text-center text-3xl font-bold">About Me</h2>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
@@ -49,7 +49,7 @@ const About = () => {
           <p className="text-center text-gray-400 mt-2">
             Here are the latest skills I have acquired for my career.
           </p>
-        </motion.div>
+        </motion.div> */}
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-12 items-center">
           {/* GSAP Image */}
@@ -69,7 +69,7 @@ const About = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
             viewport={{ once: true }}
-            className="text-gray-300 leading-relaxed space-y-6"
+            className="leading-relaxed space-y-6"
           >
             <p>
               I am a passionate Full-Stack Web Developer skilled in building

@@ -380,7 +380,7 @@ const Navber = () => {
                   onMouseEnter={handleButtonHover}
                   onMouseLeave={handleButtonHoverOut}
                   className="bg-transparent text-gray-900 dark:text-white border border-gray-300 dark:border-gray-700 font-medium py-3 px-8 rounded-lg text-sm hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors cursor-pointer"
-                  href="https://drive.google.com/file/d/19Bun38e5965X24VbV0f502BxBgmmQtGZ/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1ZyywTa6gleC17NRi-cJGwdC1cLf93Ccz/view?usp=sharing"
                   target="_blank"
                 >
                   <div className="flex justify-between items-center flex-wrap gap-0.5">

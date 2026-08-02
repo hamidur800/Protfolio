@@ -66,7 +66,7 @@ const MySkills = () => {
                 <div class="card bg-white dark:bg-gray-800">
                   <div className="flex flex-col justify-center items-center gap-4">
                     <IoLogoCss3 size={80} color="#2d53e5" />
-                    <h2 className="text-center text-xl">HTML5</h2>
+                    <h2 className="text-center text-xl">CSS3</h2>
                     <h2 className="text-center text-xl">90%</h2>
                   </div>
                 </div>

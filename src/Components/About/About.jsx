@@ -82,8 +82,8 @@ const About = () => {
 
             {/* Button */}
             <motion.a
-              href="https://drive.google.com/file/d/19Bun38e5965X24VbV0f502BxBgmmQtGZ/view?usp=sharing"
-              target="_blank"
+              href="https://drive.google.com/file/d/1ZyywTa6gleC17NRi-cJGwdC1cLf93Ccz/view?usp=sharing"
+              download
               className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-lg text-white font-medium"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

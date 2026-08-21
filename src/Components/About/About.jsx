@@ -72,12 +72,19 @@ const About = () => {
             className="leading-relaxed space-y-6"
           >
             <p>
-              I am a passionate Full-Stack Web Developer skilled in building
-              modern, responsive, and scalable web applications. I work
-              confidently across both frontend and backend, focusing on clean
-              code, performance, and real-world problem solving. I enjoy
-              learning new technologies and continuously improving my
-              development workflow.
+              I’m a passionate Full-Stack Web Developer who loves turning ideas
+              into modern, responsive, and user-friendly web applications. I
+              work across both frontend and backend development, building
+              complete solutions with a strong focus on clean code, performance,
+              scalability, and great user experiences. I have hands-on
+              experience with technologies like React, JavaScript, Tailwind CSS,
+              Node.js, Express.js, MongoDB, and Firebase. I enjoy creating
+              real-world projects, solving complex problems, and continuously
+              exploring new technologies to improve my skills. I believe good
+              development is not just about writing code—it’s about
+              understanding the problem, creating an efficient solution, and
+              delivering a product that people enjoy using. I’m always learning,
+              building, and trying to improve myself.
             </p>
 
             {/* Button */}

@@ -38,6 +38,27 @@ const Protfolio = () => {
           {/* Portfolio Grid */}
           <main className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* CARD — 1 */}
+
+            <a target="_Blank" href="https://chadnishop.com">
+              <div className="bg-white dark:bg-gray-800/50 rounded-lg overflow-hidden group">
+                <div className="relative overflow-hidden">
+                  <img
+                    alt="Undercover colorful project"
+                    className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
+                    src="/chadnishop.png"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="font-semibold text-lg text-gray-800 dark:text-white">
+                    CHADNI SHOP
+                  </h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                    E-commerce website
+                  </p>
+                </div>
+              </div>
+            </a>
+
             <a target="_Blank" href="https://hero-app-stor.netlify.app">
               <div className="bg-white dark:bg-gray-800/50 rounded-lg overflow-hidden group">
                 <div className="relative overflow-hidden">
@@ -80,25 +101,6 @@ const Protfolio = () => {
             </a>
 
             {/* CARD — 3 */}
-            <a target="_Blank" href="https://b-12-a10-client.netlify.app">
-              <div className="bg-white dark:bg-gray-800/50 rounded-lg overflow-hidden group">
-                <div className="relative overflow-hidden">
-                  <img
-                    alt="Undercover colorful project"
-                    className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
-                    src="/home-nest.png"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-semibold text-lg text-gray-800 dark:text-white">
-                    HOME-NEST
-                  </h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
-                    Web App
-                  </p>
-                </div>
-              </div>
-            </a>
 
             {/* You can duplicate these card blocks or map dynamically later */}
           </main>

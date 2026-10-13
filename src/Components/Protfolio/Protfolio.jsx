@@ -37,6 +37,25 @@ const Protfolio = () => {
 
           {/* Portfolio Grid */}
           <main className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <a target="_Blank" href="https://rahmania-jame-mosjid.netlify.app/">
+              <div className="bg-white dark:bg-gray-800/50 rounded-lg overflow-hidden group">
+                <div className="relative overflow-hidden">
+                  <img
+                    alt="Zalha project thumbnail featuring a lion and a person"
+                    className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
+                    src="/Mosque-Web-App.png"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="font-semibold text-lg text-gray-800 dark:text-white">
+                    Mosque-Management
+                  </h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                    Web App
+                  </p>
+                </div>
+              </div>
+            </a>
             {/* CARD — 1 */}
 
             <a target="_Blank" href="https://chadnishop.com">
@@ -59,7 +78,7 @@ const Protfolio = () => {
               </div>
             </a>
 
-            <a target="_Blank" href="https://hero-app-stor.netlify.app">
+            {/* <a target="_Blank" href="https://hero-app-stor.netlify.app">
               <div className="bg-white dark:bg-gray-800/50 rounded-lg overflow-hidden group">
                 <div className="relative overflow-hidden">
                   <img
@@ -77,7 +96,7 @@ const Protfolio = () => {
                   </p>
                 </div>
               </div>
-            </a>
+            </a> */}
 
             {/* CARD — 2 */}
             <a target="_Blank" href="https://toy-topia-shop.netlify.app">

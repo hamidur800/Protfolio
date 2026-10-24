@@ -89,7 +89,7 @@ const About = () => {
 
             {/* Button */}
             <motion.a
-              href="https://drive.google.com/file/d/1ZyywTa6gleC17NRi-cJGwdC1cLf93Ccz/view?usp=sharing"
+              href="https://drive.google.com/file/d/1g7MDVe7X6wA-2e8RhWeMH51qz-Uj6sXB/view?usp=sharing"
               download
               className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-lg text-white font-medium"
               whileHover={{ scale: 1.05 }}
